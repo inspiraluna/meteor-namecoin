@@ -2,8 +2,8 @@
 
 
 ## Installation
-1. install namecoin 
-2. install meteorjs from meteor.com
+1. install namecoin (see: https://wiki.namecoin.org/index.php?title=Install_and_Configure_Namecoin)
+2. install meteorjs from meteor.com ``curl https://install.meteor.com/ | sh``
 3. git clone this repository
 4. cd into meteor-namecoin add ``settings.json`` with this conent:
 ```
