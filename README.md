@@ -16,3 +16,8 @@
 ```
 5. run ``meteor npm install``
 6. start meteor with ``meteor --settings=settings.json``
+
+
+
+##used apis
+- Reactiveethod: https://github.com/stubailo/meteor-reactive-method
