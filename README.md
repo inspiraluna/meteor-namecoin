@@ -11,10 +11,7 @@
 "namecoinRpcHost": "localhost",
 "namecoinRpcPort": "8336",
 "namecoinRpcUsername": "((from your namecoinfconf))",
-"namecoinRpcPassword": "((from your namecoin.conf))",
-"public": {
-  	"otherthings": "test",
-	}
+"namecoinRpcPassword": "((from your namecoin.conf))"
 }
 ```
 5. run ``meteor npm install``
