@@ -10,7 +10,7 @@
 {
 "namecoinRpcHost": "localhost",
 "namecoinRpcPort": "8336",
-"namecoinRpcUsername": "((from your namecoinfconf))",
+"namecoinRpcUsername": "((from your namecoin.conf))",
 "namecoinRpcPassword": "((from your namecoin.conf))"
 }
 ```

@@ -1,19 +1,20 @@
 Meteor.methods({
-  'todos.updateText'({ todoId, newText }) {
+  'getBlockCount'() {
    
-
-   /* new SimpleSchema({
-      todoId: { type: String },
-      newText: { type: String }
-    }).validate({ todoId, newText });
-    const todo = Todos.findOne(todoId);
-    if (!todo.editableBy(this.userId)) {
-      throw new Meteor.Error('todos.updateText.unauthorized',
-        'Cannot edit todos in a private list that is not yours');
-    }
-    Todos.update(todoId, {
-      $set: { text: newText }
-    });*/
+        client.getBlockCount(function(err, count) {
+          if (err) return console.log(err);
+          console.log('getBlockCount:', count);
+          return count;
+        });
+    
+  },
+   'getBalance'({ todoId, newText }) {
+   
+      client.getBalance('*', 6, function(err, balance) {
+        if (err) return console.log(err);
+        console.log('Balance:', balance);
+        return count;
+      });
     
   }
 });
