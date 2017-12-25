@@ -6,6 +6,7 @@
 2. install meteorjs from meteor.com
 3. git clone this repository
 4. cd into meteor-namecoin add ``settings.json`` with this conent:
+
 ``
 	{
 	"namecoinRpcHost": "localhost",
@@ -17,4 +18,4 @@
   	}
 ``
 5. run ``meteor npm install``
-6. start meteor with `meteor --settings=settings.json``
+6. start meteor with ``meteor --settings=settings.json``
