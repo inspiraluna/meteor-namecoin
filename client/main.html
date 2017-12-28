@@ -6,12 +6,45 @@
   <h1>Welcome to Namecoin on Meteor!</h1>
 
   {{> info}}
+  {{> newName}}
 </body>
+<template name="newName">
+    <hr>
+    Create a new name id:
+    <form>
+    <input type="text" value="" size="20"> <input type="button" value="create" /></form>
+</template>
 <template name="info">
+    <hr>
+    <!-- getInfo: {{info}} -->
 
-   <!-- getInfo: {{info}} -->
-    getBlockCount: {{blockCount}}
+    This is a short demo on how to use MeteorJS together with the namecoin blockchain
+    make sure you use the latest self compiled version of namecoind (e.g. on ubuntu 14.04!)
 
+    <p>getBlockCount: {{blockCount}}</p>
+    <p>accounts: {{listAccounts}}</p>
+    <p>address: {{getAccountAddress}}</p>
+    <p>transaction: {{getTransaction}}</p>
+    <p>
+        nameList:
+        {{#each nameList}}
+            <p>
+                <li>{{this.address}}</li>
+                 <li>{{this.value}}</li>
+            </p>
+        {{/each}}
+    </p>
+    <p>listTransactions:
+        {{#each listTransactions}}
+            <p> <li>{{this.address}}</li>
+                <li>{{this.category}}</li>
+            <li>{{this.amount}}</li>
+                <li>{{this.fee}} fee</li>
+                <li>{{this.confirmations}} confirmations </li>
+                <li>{{this.txid}}</li>
+            </p>
+        {{/each}}
+    </p>
 </template>
 
 

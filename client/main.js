@@ -9,18 +9,20 @@ Template.info.helpers({
     blockCount : function() {
         return  ReactiveMethod.call('getBlockCount');
     },
+    listAccounts : function() {
+        return  ReactiveMethod.call('listAccounts');
+    },
+    getAccountAddress : function() {
+        return  ReactiveMethod.call('getAccountAddress','');
+    },
+    getTransaction : function(){
+        return ReactiveMethod.call('getTransaction','d434ff01b079b8f790a774282ac9c45bfce60f9571b63004625f0d20efad1742');
+    },
+    listTransactions : function(){
+        return ReactiveMethod.call('listTransactions','*',10,false);
+    },
+    nameList : function(){
+        return ReactiveMethod.call('nameList');
+    }
 });
 
-/*
-Template.hello.helpers({
-  counter() {
-    return Template.instance().counter.get();
-  },
-});
-
-Template.hello.events({
-  'click button'(event, instance) {
-    // increment the counter when button is clicked
-    instance.counter.set(instance.counter.get() + 1);
-  },
-});*/
