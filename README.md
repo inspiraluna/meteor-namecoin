@@ -22,17 +22,16 @@ read my article about my namecoin evaluation on steemit: https://steemit.com/nam
 
 
 
-## used namecoin apis
+## used namecoin tools & apis
 - namecoin explorer https://namecha.in/
-
+- namecoin client api: https://wiki.namecoin.info/index.php?title=Client_API#name_new
 - NameId Website https://nameid.org/
 - NameId Idendity https://wiki.namecoin.org/index.php?title=Identity#Example:_Data_Format
 - Messaging System https://wiki.namecoin.info/index.php?title=Messaging_System
 
 
-##used meteor apis
-- namecoin client api: https://wiki.namecoin.info/index.php?title=Client_API#name_new
+## used meteor & apis
 - Reactivemethod: https://github.com/stubailo/meteor-reactive-method
 
-##other tolls
+## other tools
 - bitcoin webbased interface to rpc api https://chainquery.com/bitcoin-api/getbalance
