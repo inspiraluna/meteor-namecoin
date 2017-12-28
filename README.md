@@ -1,6 +1,8 @@
 # meteor-namecoin
 
 
+read my article about my namecoin evaluation on steemit: https://steemit.com/namecoin/@inspiraluna/my-namecoin-evalution-experience-using-meteorjs
+
 ## Installation
 1. install namecoin (see: https://wiki.namecoin.org/index.php?title=Install_and_Configure_Namecoin)
         make sure you use the latest self compiled version of namecoind e.g. on ubuntu 14.04!
